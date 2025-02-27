@@ -20,3 +20,24 @@ git remote add origin https://github.com/your-username/your-repo.git
 
 # 7. Push the new branch to GitHub  
 git push -u origin new-branch-name  
+
+
+
+git pull origin main  # Replace 'main' with your branch name
+2/ Switch to your branch (if needed)
+
+git checkout your-branch-name  
+git pull origin your-branch-name  
+
+3/ Make changes and add them
+
+git add .  # Add all changes
+
+
+4/ Commit your changes
+
+git commit -m 
+
+5/ push to the github
+
+git push origin your-branch-name  # Push updates
