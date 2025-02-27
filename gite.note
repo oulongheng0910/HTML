@@ -1,0 +1,22 @@
+# 1. Initialize Git (only if it's a new repository)
+git init  
+
+# 2. Check the status of your files  
+git status  
+
+# 3. Create a new branch  
+git checkout -b new-branch-name  
+
+# 4. Add your new file(s) to the staging area  
+git add your-file.html  # Replace with your actual filename  
+# (Or add all changes)  
+git add .  
+
+# 5. Commit the changes with a message  
+git commit -m "Your commit message here"  
+
+# 6. Add the remote GitHub repository (only if not added before)  
+git remote add origin https://github.com/your-username/your-repo.git  
+
+# 7. Push the new branch to GitHub  
+git push -u origin new-branch-name  
